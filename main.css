@@ -1,35 +1,51 @@
 .heading{
-  text-align: center; 
+  text-align: start; 
   margin-top: 20px; 
   font-weight: bolder; 
   margin-bottom: -30px;
-  font-size: 50px;
-  letter-spacing: 4px;
+  font-size: 40px;
+  letter-spacing: 6px;
+  margin-left: 25px;
 }
 
 .setup{
   background-color: transparent;
   margin: 60px;
-  border-radius:5px;
+  border-radius:15px;
   opacity: 130%;
   box-shadow: #c9c6c680 3px 3px 3px 3px inset, #c9c6c680 -2px -2px 3px 2px inset; 
 }
 
+:root {
+  --text-color: #000000; /* Default text color */
+  --name-color: #000; /* Default name color */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+  
+.name {
+  color: var(--name-color);
+}
+
+
 .navigation-bar{
- background-color: #c3c4c694;
+ background-color: #c3c6c394;
  height: 50px;
  justify-content: right;
  display: flex;
+ border-radius: 15px;
  font-weight: 600;
 }
 .navigation-bar :hover{
-  color: rgb(38, 255, 78);
+  color: rgb(8, 222, 47);
 }
 
 .nav-link{
-  color: white;
+  color: rgb(0, 0, 0);
 }
- 
 .hero{
  background-color:transparent;
  min-height: 80vh;
@@ -39,7 +55,7 @@
 #profile_pic{
  height: 200px;
  width: 200px;
- border-radius: 48%;
+ border-radius: 51%;
  object-fit: cover;
 }
 
@@ -59,7 +75,7 @@
 
 .intro-name{
  font-size: 62px;
- color: #0e9e03;
+ color: #000000;
  margin-top: .1em;
  font-weight: 740;
  margin-left: 2em;
@@ -73,7 +89,7 @@
   margin-right: -130px;
   text-align: right;
   font-size: 22px;
-  color: #11a907;
+  color: #000000;
 }
 .container{
  width: 970px;
@@ -89,7 +105,7 @@
 
 }
 body{
- background-color: #e8e5e5;
+ background-color: #fff;
 }
 
 .project-wrapper{
@@ -121,8 +137,8 @@ body{
   margin-bottom: 2em;
   width: 800px;
   margin: auto;
-  background-color: #1bda0d8e;
-  box-shadow: #11a907 3px 3px 3px;
+  background-color: #03da0ad0;
+  box-shadow: #03da0a 3px 3px 3px;
   padding:15px;
   border-radius: 15px;
 }
@@ -195,10 +211,11 @@ body{
 }
 
   header {
-    background-color: #333;
+    background-color: #03da0a;
     color: #fff;
-    padding: 2px;
+    padding: 0px;
     text-align: center;
+    margin: -10px;
   }
 
   main {
@@ -231,22 +248,22 @@ body{
   }
 
   .contact-form button {
-    background-color: #333;
+    background-color: #03da0a;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     border-radius: 5px;
   }
 
   footer {
-    background-color: #333;
+    background-color: #03da0a;
     color: #fff;
     text-align: center;
-    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-left: -8px;
   }
 
 
@@ -287,3 +304,4 @@ body{
 
   }
 }
+
